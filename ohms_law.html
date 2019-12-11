@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<title>Electric Circuits for Beginners</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style/electricstyle.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--Header-->
+<div class="header">
+  <a href="index.html"><h1>Electric Circuits for Beginners</h1></a>
+</div>
+
+
+<!--Top Navigation Bar-->
+<div class="navbar">
+	<a href="#1">Lessons</a>
+	<a href="#2">Projects</a>
+	<a href="#3">Practice Circuits</a>
+	<a href="#4">Resources</a>
+	<form class="example">
+	  <button type="submit"><i class="fa fa-search"></i></button>
+	  <input type="text" placeholder="Search..." name="search">
+	</form>	
+</div>
+
+
+<!--Main Content-->
+<div class="main">
+  <h1>What is Ohm's Law?</h1>
+  <p>Ohm's law states that V = IR.</p>
+  <h2>What do each of these parameters (letters) mean?</h2>
+	<table align="center">
+	  <tr class="toprow">
+	  	<td>Unit Name</td><td>Symbol</td><td>Quantity</td>
+	  </tr>
+	  	  <tr>
+	    <td>Volt</td><td>V</td><td>Voltage (V, E)</td>
+	  </tr>
+	  <tr>
+	    <td>Ampere</td><td>A</td><td>Electric Current (I)</td>
+	  </tr>
+	  <tr>
+	    <td>Ohm</td><td>Ω</td><td>Resistance (R)</td>
+	  </tr>
+	</table>
+  <h2>How is Ohm's law used in circuits?</h2>
+  <p>Here is an example of a basic DC circuit using Ohm's law.</p>
+  <img src="image/cir1.png" id="cir1pic">
+	<p>Given: Let V<sub>1</sub> = 12V and R<sub>1</sub> = 6kΩ.<br/>
+	   Problem: Find the value of current, I<sub>1</sub>,
+	   through the resistor R<sub>1</sub>.<br/>
+	   Solution: Use Ohm's law, V = IR. <br/>
+	   Rearrange for I. I = V/R.<br/>
+	   Substitute in values for V and R. I<sub>1</sub> = (12V)/(6kΩ)<br/>
+	   Solve for I. I<sub>1</sub> = 2 mA
+	</p>
+  <h2>Extra Examples Using Ohm's Law</h2>
+  <div class="listmain">
+	<ul>
+	<a href="#"><li>Problem 1</li></a>
+	<a href="#"><li>Problem 2</li></a>
+	<li>Problem 3</li>
+		<ul>
+		<a href="#"><li>Series</li></a>
+		<a href="#"><li>Parallel</li></a>
+		<a href="#"><li>Combination Series & Parallel</li></a>
+		</ul>
+	<a href="#"><li>Problem 4</li></a>
+	</ul>
+  </div>
+  <h2>Submit a Question Form</h2>
+	<p>After you have checked our <a href="#">FAQs</a>, please feel free
+	to submit another question here.</p>
+	<div class="formdiv">
+		<form id="form1">
+		Name: <br/>
+		<input class="question" type="text" id="fname" placeholder="First & Last.."><br/>
+		Email: <br/>
+		<input class="question" type="text" id="femail" placeholder="example@electric.com"><br/>
+		Question: <br/>
+		<textarea rows="3" wrap="hard" id="fquestion" placeholder="Type question here.."></textarea>
+		<br/><br/>
+		<button type="button" onclick="myclick()" id="button1">Submit Question</button>
+		</form>
+	</div>
+	<p>
+	<span id="span1"></span><br/>
+	<span id="span2"></span><br/>
+	<span id="span3"></span><br/>
+	<span id="span4"></span><br/>
+	<span id="span5"></span><br/>
+	</p>
+	
+</div>
+
+
+<!--Footer-->
+<div class="footer">
+  <div class="footerleft">Terms & Agreements: We are not responsible for anything
+	that you do. All experiments and learning are done at your own risk! Please
+	do your own due diligence and work in a safe manner when attempting to work
+	with electricity.
+	</div>
+	<div class="footerright">
+	<table class="footertable">
+	<tr><td>Contact Information:</td></tr>
+	<tr><td>Jake Westling</td></tr>
+	<tr><td><a href="mailto:jakewestling@gmail.com">jakewestling@gmail.com</a></td></tr>
+	<tr><td>Steubenville, OH</td></tr>
+	</table>
+  </div>
+</div>
+</body>
+
+
+<!--JavaScript for Form-->
+<script>
+function myclick() {
+  document.getElementById("span1").innerHTML = "Thank you! Your question has been submitted!"
+  document.getElementById("span2").innerHTML = document.getElementById("fname").value;
+  document.getElementById("span3").innerHTML = document.getElementById("femail").value;
+  document.getElementById("span4").innerHTML = document.getElementById("fquestion").value;
+  document.getElementById("span5").innerHTML = "Our expert team will reply shortly!"
+  document.getElementById("fname").value = "";
+  document.getElementById("femail").value = "";
+  document.getElementById("fquestion").value = "";
+}
+</script>
+</html>
