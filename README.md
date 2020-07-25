@@ -1,5 +1,7 @@
 # Electric Circuits for Beginners Website
 
+#### [View this project and others on Alpha & Data](https://alphaanddata.com/)
+
 ## Description:
 Electric Circuits for Beginners, or ECB is a website project that makes use of HTML5, CSS,
 and Javascript from scratch.
