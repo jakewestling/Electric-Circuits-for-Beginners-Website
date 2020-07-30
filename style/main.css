@@ -1,0 +1,29 @@
+body {
+  font-family: 'Crimson Text', serif;  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bg-gray {
+  background: #f1f1f1;
+}
+
+.font-yellow {
+  color: #f8f8b8;
+}
+
+.font-white {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #f8f8b8;
+}
