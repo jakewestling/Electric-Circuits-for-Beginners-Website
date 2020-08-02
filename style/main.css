@@ -7,16 +7,34 @@ body {
   padding: 0;
 }
 
+.bg-green {
+  background-color: #1abc9c;
+}
 .bg-gray {
   background: #f1f1f1;
 }
 
+.bg-test {
+  background: cornflowerblue;
+}
+
+.bg-test2 {
+  background: crimson;
+}
+
+.font-black {
+  color: black;
+}
 .font-yellow {
   color: #f8f8b8;
 }
 
 .font-white {
   color: white;
+}
+
+.font-green {
+  color: #0E6050;
 }
 
 a {
@@ -27,3 +45,103 @@ a:hover {
   text-decoration: none;
   color: #f8f8b8;
 }
+
+.h-100 {
+  height: 100%;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 0.25rem;
+}
+.m-2 {
+  margin: 0.5rem;
+}
+.m-3 {
+  margin: 0.75rem;

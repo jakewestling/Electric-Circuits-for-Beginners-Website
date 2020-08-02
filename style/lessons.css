@@ -1,0 +1,11 @@
+.button-list {
+  display: grid;
+  grid-template-columns: 200px;
+  gap: 20px;
+}
+
+.lesson-button {
+  cursor: pointer;
+  border: 1px solid black;
+}
+

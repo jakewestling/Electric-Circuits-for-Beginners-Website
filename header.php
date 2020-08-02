@@ -14,7 +14,7 @@
 </head>
 <body>
   <header class="container">
-    <a class="header font-white" href="<?php echo $dir;?>index.php">
+    <a class="header font-white bg-green" href="<?php echo $dir;?>index.php">
       <img class="logo" src="<?php echo $dir;?>img/logo.gif" alt="Electric Circuits for Beginners ECB Bulb">
       <h1 class="title">E.C.B.</h1>
     </a>
