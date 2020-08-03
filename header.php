@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <?php
-   $dir = '/beta0/projects/ecb/';
+   $dir = '/projects/ecb/';
  ?>  
 <head>
   <meta charset="UTF-8">
