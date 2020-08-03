@@ -1,0 +1,86 @@
+/* Screen less than (xs-default) ALL PHONES PORTRAIT*/
+@media screen and (min-width: 0px) {
+  .main {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1rem;
+	}
+	.pic-circuit {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+	.table {
+		margin-left: auto;
+		margin-right: auto;
+	
+		border: 1px solid black;
+		padding: 1px;
+		background: #1abc9c;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		}
+	.top-row {
+		font-weight: bold;
+	}
+	.main table td {
+		background: #f1f1f1;
+		border: 1px solid black;
+		text-align: center;
+		padding: 5px;
+	}
+	.main h1 {
+		font-size: 28px;
+		margin-top: 0.25rem;
+		margin-bottom: 0.25rem;
+	}
+	.main h2 {
+		font-size: 24px;
+		margin-top: 1rem;
+		margin-bottom: 0.25rem;
+	}
+	.main h3 {
+		font-size: 20px;
+		margin-top: 0.25rem;
+		margin-bottom: 0.25rem;
+	}
+	.main p {
+		margin-top: 0.25rem;
+		margin-bottom: 0.25rem;
+	}
+  #solution {
+		display: none;
+	}
+	.lesson-button {
+		font-size: 16px;
+	}
+
+}
+
+/* Screen greater than (sm) SMALL TABLETS*/
+@media screen and (min-width: 576px) {
+
+}
+/* Screen greater than (md) IPAD or TABLETS*/
+@media screen and (min-width: 768px) {
+  .main h1 {
+		font-size: 32px;
+	}
+	.main h2 {
+		font-size: 28px;
+	}
+	.main h3 {
+		font-size: 24px;
+	}
+}
+
+/* Screen greater than (lg) LAPTOPS or DESKTOPS*/
+@media screen and (min-width: 992px) {
+
+}
+
+/* Screen greater than (xl) 1200px*/
+@media screen and (min-width: 1200px) {
+
+}

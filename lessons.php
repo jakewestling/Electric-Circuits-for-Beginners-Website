@@ -3,14 +3,14 @@
 <head>
   <title class="lessons" id="title">E.C.B. - Lessons - Learn about Circuits</title>
   <meta name="description" content="Check out our lessons on Ohm's Law and Series Circuits on E.C.B. E.C.B. makes it easy by putting all of the resources you need to learn the basics in one convienient place.">
-  <link rel="stylesheet" href="style/lessons.css">  
+  <link rel="stylesheet" href="style/lessons.css">
 </head>
 <?php
   require 'header.php';
   require 'navbar.php';
 ?>
 
-<body class="h-100 d-flex flex-column bg-gray">
+<body class="h-100 d-flex flex-column bg-gray main">
   <div class="container p-2 text-center">
     <h2>Electric Circuit Lessons</h2>
     <p>Our current lessons are listed below.</p>

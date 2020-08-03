@@ -9,7 +9,7 @@
   require 'navbar.php';
 ?>
 
-<body class="h-100 d-flex flex-column bg-gray">
+<body class="h-100 d-flex flex-column bg-gray main">
   <div class="container p-2 text-center">
     <h2>Welcome to E.C.B.!</h2>
     <p>Electric Circuits for Beginners is the place to start learning about circuits.</p>
