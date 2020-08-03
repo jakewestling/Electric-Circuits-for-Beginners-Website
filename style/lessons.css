@@ -1,11 +1,37 @@
-.button-list {
-  display: grid;
-  grid-template-columns: 200px;
-  gap: 20px;
+/* Screen less than (xs-default) ALL PHONES PORTRAIT*/
+@media screen and (min-width: 0px) {
+  .button-list {
+    display: grid;
+    grid-template-columns: minmax(250px, auto);
+    gap: 8px;
+    justify-content: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  
+  .lesson-button {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
 }
 
-.lesson-button {
-  cursor: pointer;
-  border: 1px solid black;
+/* Screen greater than (sm) SMALL TABLETS*/
+@media screen and (min-width: 576px) {
+  .button-list {
+    grid-template-columns: minmax(340px, auto);
+  }
+}
+/* Screen greater than (md) IPAD or TABLETS*/
+@media screen and (min-width: 768px) {
+
 }
 
+/* Screen greater than (lg) LAPTOPS or DESKTOPS*/
+@media screen and (min-width: 992px) {
+
+}
+
+/* Screen greater than (xl) 1200px*/
+@media screen and (min-width: 1200px) {
+
+}

@@ -13,6 +13,9 @@ body {
 .bg-gray {
   background: #f1f1f1;
 }
+.bg-gray2 {
+  background: #686868;
+}
 
 .bg-test {
   background: cornflowerblue;
@@ -145,3 +148,18 @@ a:hover {
 }
 .m-3 {
   margin: 0.75rem;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+

@@ -1,190 +1,44 @@
-/*Body Font*/
-body {
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/*Style Header*/	
-.header {
-	padding: 5px 25px;
-	text-align: left;
-	background: #1abc9c; /*green*/
-	color: white;
-	font-style: italic;
-}
-.header h1 {
-	font-size: 40px;
-}
-.header a {
-	text-decoration: none;
-	color: white;
-}
-.header a:hover {
-	color: green;
-}
-
-/* Style Navigation Bar*/
-.navbar {
-	overflow: hidden;
-	background-color: #333;
-}
-.navbar a {
-	float: left;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 20px;
-	text-decoration: none;
-}
-.navbar form.example input[type=text] {
-	float: right;
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 12px 20px;
-	font-size: 17px;
-	border: 1px solid grey;
-	background: #f1f1f1;
-	}
-.navbar form.example button {
-	float: right;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 12px 20px;
-	font-size: 17px;
-	border: 1px solid grey;
-	background: #333;
-	border-left: none;
-	cursor: pointer;
-	}
-.navbar form.example button:hover {
-	background: #ddd;
-}
-.navbar a:hover {
-	background-color: #ddd; /*gray*/
-	color: black;
-}
-
-
-/*Style Main*/
 .main {
-	display: block;
-	margin: auto;
-	width: 95%;
-	padding: 5px;
-	text-align: center;
-	font-size: 1.1rem;
-	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
 }
-.main table {
+.pic-circuit {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.table {
+	margin-left: auto;
+	margin-right: auto;
+
 	border: 1px solid black;
 	padding: 1px;
 	background: #1abc9c;
+	margin-top: 12px;
+	margin-bottom: 12px;
 	}
-.toprow {
+.top-row {
 	font-weight: bold;
 }
 .main table td {
+	background: #f1f1f1;
 	border: 1px solid black;
-	background: white;
 	text-align: center;
 	padding: 5px;
 }
-#cir1pic {
-	max-width: 95%;
+.main h1 {
+	font-size: 28px;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
 }
-.listmain {
-	display: block;
-	margin: auto;
-	width: 50%;
-	text-align: left;
-	font-size: 1.1rem;
+.main h2 {
+	font-size: 20px;
+	margin-top: 1rem;
+	margin-bottom: 0.25rem;
 }
-h2 {
-	margin-top: 70px;
+.main p {
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
 }
-.main a {
-	text-decoration: none;
-	color: black;
-}
-.main a:hover {
-	color: green;
-}
-.formdiv {
-	display: block;
-	margin: auto;
-	background: #ddd;
-	padding: 10px;
-	border: 1px solid black;
-	max-width: 70%;
-}
-#form1 {
-	text-align: left;
-}
-#form1 input {
-	width: 100%;
-	height: 20px;
-}
-#form1 textarea#fquestion {
-	width: 100%;
-	font-size: 1.05rem;
-}
-input .question {
-	padding: 5px;
-}
-
-
-/*Style Footer*/
-.footer {
-	padding: 15px;
-	background: #ddd; 
-	display: flex;
-	flex-wrap: wrap;
-	min-height: 150px;
-	font-size: 1.05rem;
-}
-.footerleft {
-	flex: 30%;
-	background-color: #f1f1f1; 
-	padding: 10px;
-	text-align: left;
-}
-.footerright {
-	flex: 50%;
-	background-color: #f1f1f1; 
-	padding: 10px;
-	text-align: left;
-	display:block;
-	position: relative;
-}
-.footertable {
-	padding: 10px;
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
-}
-
-
-/*Responsive layout - nav links stack instead of side when less than 850px*/
-@media screen and (max-width: 850px) {
-	.navbar a {
-		float: none;
-		width: 100%;
-	}
-	.navbar form {
-		float: none;
-		width: 78%
-	}
-	.mainpic {
-	width: 100%;
-	height: auto;
-	display: block;
-	}
-}
-
-
-
-
-
