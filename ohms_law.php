@@ -4,7 +4,7 @@
   <title class="lessons" id="title">Ohm's Law - E.C.B. - Lessons</title>
   <meta name="description" content="What is Ohm's Law? Ohm's law states that V = IR.">
   <link rel="stylesheet" href="style/lessons.css" type="text/css">
-  <link rel="stylesheet" href="style/sub_lesson.css" type="text/css">
+  <link rel="stylesheet" href="style/sub_lessons.css" type="text/css">
 </head>
 <?php
   require 'header.php';
@@ -40,7 +40,7 @@
     <p class="pb-2">Find the value of current, I<sub>1</sub>, through the resistor R<sub>1</sub>.</p>
 
     <div class="button-list mt-2" id="button-span">
-      <button class="font-white lesson-button bg-gray2 p-2" type="button" onclick="answerClick('solution')">Reveal Solution</button>
+      <button class="font-white lesson-button bg-gray2 p-2" type="button" onclick="answerClick('solution')"><h3>Reveal Solution<h3></button>
     </div>
 
     <span id="solution">
@@ -52,7 +52,19 @@
       <p>I<sub>1</sub> = (12V)/(6kΩ)</p>
       <p>Solve for I.</p>
       <p>I<sub>1</sub> = 2 mA</p>
-    </span>     
+    </span>
+    
+    <!--Next & Previous Lesson Nav-->
+    <div class="grid-container2 pt-3">
+      <a class="previous-next font-white pt-2 pb-2 bg-gray2 lesson-button disabled-button">
+        <div>Previous</div>
+        <div><i class="fas fa-arrow-alt-circle-left"></i></div>
+      </a>
+      <a href="series_circuits.php" class="previous-next font-white pt-2 pb-2 bg-gray2 lesson-button">
+        <div>Next</div>        
+        <div><i class="fas fa-arrow-alt-circle-right"></i></div>
+      </a>      
+    </div>
   </div>
   <?php
     require 'footer.php';

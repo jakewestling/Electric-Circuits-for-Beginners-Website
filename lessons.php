@@ -12,7 +12,8 @@
 
 <body class="h-100 d-flex flex-column bg-gray main">
   <div class="container p-2 text-center">
-    <h2>Electric Circuit Lessons</h2>
+    <h1>Electric Circuit Lessons</h1>
+    <img class="pic-index" src="img/sign.gif" alt="Warning Electric Sign">
     <p>Our current lessons are listed below.</p>
     <p>Unsure where to start? <a class="font-green" href="ohms_law.php">Start here.</a></p>
     <div class="button-list mt-2">

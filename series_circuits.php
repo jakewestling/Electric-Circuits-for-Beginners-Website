@@ -4,7 +4,7 @@
   <title class="lessons" id="title">Series Circuits - E.C.B. - Lessons</title>
   <meta name="description" content="What is a Series Circuit? A series circuit is defined by having only a single path through which current can flow.">
   <link rel="stylesheet" href="style/lessons.css" type="text/css">
-  <link rel="stylesheet" href="style/sub_lesson.css" type="text/css">  
+  <link rel="stylesheet" href="style/sub_lessons.css" type="text/css">  
 </head>
 <?php
   require 'header.php';
@@ -30,7 +30,7 @@
     <p class="pb-2">Find the total voltage drop, V<sub>T</sub>, V<sub>1</sub>, and V<sub>2</sub>.</p> 
 
     <div class="button-list mt-2" id="button-span">
-      <button class="font-white lesson-button bg-gray2 p-2" type="button" onclick="answerClick('solution')">Reveal Solution</button>
+      <button class="font-white lesson-button bg-gray2 p-2" type="button" onclick="answerClick('solution')"><h3>Reveal Solution<h3></button>
     </div>
 
     <span id="solution">
@@ -50,7 +50,19 @@
       <p>Using Ohm's Law: V = IR</p>
       <p>V<sub>1</sub> = 0.67mA * 6kΩ = 4V</p>
       <p class="pb-2">V<sub>2</sub> = 0.67mA * 12kΩ = 8V</p>    
-    </span>    
+    </span>
+    
+        <!--Next & Previous Lesson Nav-->
+    <div class="grid-container2 pt-3">
+      <a href="ohms_law.php" class="previous-next font-white pt-2 pb-2 bg-gray2 lesson-button">
+        <div>Previous</div>
+        <div><i class="fas fa-arrow-alt-circle-left"></i></div>
+      </a>
+      <a class="previous-next font-white pt-2 pb-2 bg-gray2 lesson-button disabled-button">
+        <div>Next</div>        
+        <div><i class="fas fa-arrow-alt-circle-right"></i></div>
+      </a>      
+    </div>
   </div>
   <?php
     require 'footer.php';

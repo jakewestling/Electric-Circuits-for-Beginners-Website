@@ -1,0 +1,23 @@
+/* Screen less than (xs-default) ALL PHONES PORTRAIT*/
+@media screen and (min-width: 0px) {
+
+}
+
+/* Screen greater than (sm) SMALL TABLETS*/
+@media screen and (min-width: 576px) {
+
+}
+/* Screen greater than (md) IPAD or TABLETS*/
+@media screen and (min-width: 768px) {
+
+}
+
+/* Screen greater than (lg) LAPTOPS or DESKTOPS*/
+@media screen and (min-width: 992px) {
+
+}
+
+/* Screen greater than (xl) 1200px*/
+@media screen and (min-width: 1200px) {
+
+}
