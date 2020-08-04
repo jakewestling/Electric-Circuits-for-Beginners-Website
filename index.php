@@ -14,7 +14,7 @@
   <div class="container p-2 text-center">
     <h1>Welcome to E.C.B.!</h1>
     <img class="pic-index" src="img/home.gif" alt="Battery and 2 Bulbs Circuit">
-    <p>Electric Circuits for Beginners is the place to start learning about circuits.</p>
+    <p class="pt-2">Electric Circuits for Beginners is the place to start learning about circuits.</p>
     <p>Jump over to our <a href="lessons.php" class="a2">lessons tab</a> to get started.</p>
   </div>
   <?php

@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="container">
+  <header>
     <a class="header font-white bg-green" href="<?php echo $dir;?>index.php">
       <img class="logo" src="<?php echo $dir;?>img/logo.gif" alt="Electric Circuits for Beginners ECB Bulb">
       <div class="title">E.C.B.</div>
