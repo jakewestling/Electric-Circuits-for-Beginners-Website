@@ -25,4 +25,5 @@
     require 'footer.php';
   ?> 
 </body>
+<!--end-->
 </html>
