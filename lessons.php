@@ -15,13 +15,11 @@
     <h1>Electric Circuit Lessons</h1>
     <img class="pic-index" src="img/sign.gif" alt="Warning Electric Sign">
     <p class="pt-2">Our current lessons are listed below.</p>
-    <p>Unsure where to start? <a class="font-green" href="ohms_law.php">Start here.</a></p>
+    <p>Unsure where to start? <a class="a2" href="ohms_law.php">Start here.</a></p>
     <div class="button-list mt-2">
       <a class="font-white" href="ohms_law.php"><div class="lesson-button bg-gray2 p-2">Ohm's Law</div></a>
       <a class="font-white" href="series_circuits.php"><div class="lesson-button bg-gray2 p-2">Series Circuits</div></a>
-    </div>
-    
-    
+    </div>    
   </div>
   <?php
     require 'footer.php';
