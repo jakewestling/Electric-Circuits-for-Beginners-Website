@@ -3,10 +3,13 @@
 #### [View this project and others on Alpha & Data](https://alphaanddata.com/)
 
 ## Description:
-Electric Circuits for Beginners, or ECB is a website project that makes use of HTML5, CSS,
-and Javascript from scratch.
+Have you ever wanted to learn about electric circuits but never had the time or resources?
+E.C.B. makes it easy by putting all of the resources you need to learn the basics all in one convienient place.
+Lessons include Ohm's Law and Series Circuits.
 
-## What I Learned:
+Electric Circuits for Beginners, or ECB is a website project that makes use of HTML5, CSS, Javascript, and PHP from scratch. 
+
+## Key Technologies:
 
 ### HTML5
 * Basic tags and format
@@ -17,9 +20,14 @@ and Javascript from scratch.
 * General Styling
 * Colors, fonts, backgrounds
 * Color change on hover for links, tabs, etc
-* Basic responsive layout for smaller devices
+* Responsive layout for phones, tablets, and computers
 
 ### Javascript
 * Document Object Model
-* Display user entered form data on page.
-* Clear form fields
+* Reveal solutions button
+* Active page underlined, highlighted in navigation bar
+
+### PHP
+* Require and include tags
+* Echo
+* Utilize header, navigation bar, and footer
